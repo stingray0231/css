@@ -1,0 +1,28 @@
+*,
+body {
+  font-family: "IRANSansX", tahoma;
+  /* font-family: Vazirmatn, sans-serif; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+@supports (font-variation-settings: normal) {
+  *,
+  body {
+    font-family: "IRANSansXV", tahoma;
+    -moz-font-feature-settings: "ss02";
+    -webkit-font-feature-settings: "ss02";
+    font-feature-settings: "ss02";
+  }
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
